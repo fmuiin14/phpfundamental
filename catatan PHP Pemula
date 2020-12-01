@@ -1,0 +1,128 @@
+1 Belajar PHP untuk pemula
+Kenapa PHP?
+Perlu belajar html dan css dulu
+
+relatif mudah, khususnya untuk pemula
+php gratis dan open source
+dukungan komunitas besar
+dokumentasi lengkap
+php dibuat khusus untuk web
+saat ini, kebanyakan web di internet pake php
+banyak website besar dibuat dengan php
+CMS banyak yg menggunakan php (wordpress, joomla, drupal)
+Framework php banyak yg bagus (CI, Laravel, CakePHP, Laravel, Symfony)
+
+Apa yg akan dipelajari?
+client side VS server side scripting
+static and dynamic website
+persiapan lingkungan pengembangan
+sintaks php
+array (konsep yg paling penting di php)
+request method
+studi kasus website sederhana
+website akan dihubungkan ke database
+login dan registrasi
+session and cookie
+AJAX
+upload file
+reporting
+web hosting
+
+
+Apa yg harus disiapkan?
+-code editor
+-web server
+-web browser
+-database server
+********************
+
+2 Sejarah dan karakteristik php
+
+Lasmus Lerdorf (pencipta php, 1994)
+Awalnya bikin program pakai bahasa C, buat ngelola halaman pribadinya dia. Kenapa php? personal home page.
+Dia buat form untuk mengelola database dia. 
+
+SEJARAH
+PHP/FI 1994
+PHP v1 1995
+PHP v2 1997
+PHP v3 1998 (dibantu ama Zeev Suraski & Andi Gutmans, akhirnya bikin perusahaan Zend Tech)
+Namanya jadi, 
+Hypertext Preprocessor
+PHP v4 2000 (ada zend engine)
+PHP v5 2004 (zend engine v2, ada OOP, ada PHP Data Object)
+2008, PHP v4 diberhentikan
+PHP v6, mau rilis tp gajadi
+Akhirnya, PHP v 5.4 2010
+RILIS PHP v7 2014 (zend engine 3)
+
+Karakteristik PHP:
+ekstensi .php
+syntax ditulis dalam tag(delimiter) php <?php ?>
+bisa digunakan bersamaan dengan html
+mengikuti bahasa C
+***************************
+
+3 Persiapan lingkungan pengembangan PHP
+
+Client side scripting itu html, css, javascript
+
+SERVER SIDE SCRIPTING, ketika browser request, pertama ke web server (nginx, tomcat, apache), 
+lalu cek ada bahasa backend/engga, setelah itu cek database bisa crud query
+
+1. web server (apache)
+2. bahasa pemrograman (php)
+3. database (mysql)
+
+apache2 ada di var/www/html
+
+***************************
+
+4. Sintaks PHP
+
+Catatan di project
+**************************
+5 Struktur kendali (kontrol flow)
+Pengulangan (for, while, do while, foreach)
+Pengkondisian (if else, ternary, switch)
+
+Praktikum buat tabelll
+
+**************************
+
+6. Function
+	Potongan program yang kita buat untuk mempermudah kita saat kita membuat program. Kode program bisa dikasih nama dan dipanggil berulang-ulang. 
+Ada 2 jenis:
+- Built it Function
+- User Defined Function
+
+Yang akan sering digunakan:
+date/ time
+	time() //butuh 1 parameter
+	date()
+	mktime()
+	strtotime()
+	
+STRING
+	strlen()
+		Stringlength, menghitung panjang sebuah string
+	strcmp()
+		Stringcompare, membandingkan dua buah string
+	explode()
+		Memecah string menjadi array
+	htmlspecialchars()
+		Untuk menghindari org iseng, hacker
+	
+UTILITY
+	var_dump()
+		Mencetak isi dari sebua variabel, array, objek
+	isset()
+		Apakah sebuah variabel sudah pernah dibuat atau belum, hasilnya boolean
+	empty()
+		Apakah variabel yg ada itu kosong apa engga
+		
+count()
+	untuk ngitung jumlah elemen pada array biar di dalem for ngikutin
+	
+	
+nonton 6 lagi deh
