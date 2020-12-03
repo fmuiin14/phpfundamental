@@ -81,10 +81,11 @@ apache2 ada di var/www/html
 4. Sintaks PHP
 
 Catatan di project
-SAMPESINI
+
 **************************
 5 Struktur kendali (kontrol flow)
 Pengulangan (for, while, do while, foreach)
+	Ketika ingin mengerjakan blok program tanpa harus nenulis ulang skripnya
 Pengkondisian (if else, ternary, switch)
 
 Praktikum buat tabelll
