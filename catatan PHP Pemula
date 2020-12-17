@@ -95,11 +95,11 @@ Praktikum buat tabelll
 6. Function
 	Potongan program yang kita buat untuk mempermudah kita saat kita membuat program. Kode program bisa dikasih nama dan dipanggil berulang-ulang. 
 Ada 2 jenis:
-- Built it Function
-- User Defined Function
+- Built it Function (sudah disediakan oleh php)
+- User Defined Function (bikin sendiri)
 
 Yang akan sering digunakan:
-date/ time
+	date() //butuh parameter
 	time() //butuh 1 parameter
 	date()
 	mktime()
@@ -122,9 +122,17 @@ UTILITY
 		Apakah sebuah variabel sudah pernah dibuat atau belum, hasilnya boolean
 	empty()
 		Apakah variabel yg ada itu kosong apa engga
+	die();
+		memberhentikan program
+	sleep()
+		berhenti sementara
+	count()
+		untuk ngitung jumlah elemen pada array biar di dalem for ngikutin
 		
-count()
-	untuk ngitung jumlah elemen pada array biar di dalem for ngikutin
+USER DEFINED FUNCTION
+	Harus di definisikan dan dibuat
+	
+7 ARRAY
+
 	
 	
-nonton 6 lagi deh
