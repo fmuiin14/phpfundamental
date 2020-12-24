@@ -137,7 +137,26 @@ USER DEFINED FUNCTION
 		Belajar array numeric key dan value
 		
 8 ARRAY ASSOSIATIF
+	Associative array adalah sebuah array yang indexnya dapat didefinisikan sendiri baik berupa numerik maupun label (string). 
+Index pada associative array sering disebut dengan key.
 	
-
+	
+9 GET dan POST
+	Variabel Scope
+		global $namavariabel //untuk cek global variabel
+	
+	SUPERGLOBALS
+		Merupakan variabel yg dimiliki oleh PHP (variabel spesial)
+		$_GET
+			Merupakan metode pengiriman data melalui URL dan data tsb bisa ditangkap menggunakan superglobal $_GET
+		$_POST
+		$_REQUEST
+		$_SESSION
+		$_COOKIE
+		$_SERVER
+		$_ENV
+			Semua merupakan array assosiatif.
+			
+		di url ? maknanya, sekarang saya akan memasukkan data ke halaman ini
 	
 	
