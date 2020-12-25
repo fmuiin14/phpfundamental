@@ -162,3 +162,11 @@ Index pada associative array sering disebut dengan key.
 10 Database dan MYSQL
 	praktikum di database
 	
+11. PHP dan MYSQL
+	Mengkoneksikan PHP dan MYSQL
+		- Ekstensi MySQL
+		- Ekstensi mySQLi
+		- PDO (PHP Data Object)
+		
+	konekin database ke php: mysqli_connect() // isinya ("localhost", "root", "", "phpdasar")
+	
